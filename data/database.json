@@ -1,0 +1,118 @@
+{
+  "users": [
+    {
+      "id": "usr_demo_01",
+      "name": "Alex Morgan",
+      "email": "alex@taskflow.dev",
+      "passwordHash": "$2b$10$py8YNop9fVeET2xVGSE66.CMcXSAaxQr.SIjZDaKMKReu9eAdqfGi",
+      "role": "Full Stack Developer",
+      "avatarUrl": null,
+      "createdAt": "2026-11-08T16:43:28.443Z",
+      "updatedAt": "2026-11-17T16:43:28.443Z"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "tsk_seed_01",
+      "userId": "usr_demo_01",
+      "title": "Configure JWT authentication middleware and protected API routes",
+      "description": "Verify Bearer tokens on all task and upload endpoints, returning structured 401 responses for expired sessions.",
+      "status": "completed",
+      "priority": "high",
+      "category": "Backend",
+      "dueDate": "2026-11-17",
+      "attachmentUrl": null,
+      "createdAt": "2026-11-13T16:43:28.443Z",
+      "updatedAt": "2026-11-16T16:43:28.443Z"
+    },
+    {
+      "id": "tsk_seed_02",
+      "userId": "usr_demo_01",
+      "title": "Wire Axios client interceptors to React Context state",
+      "description": "Attach auth headers automatically on outgoing requests and synchronize task state across dashboard views.",
+      "status": "completed",
+      "priority": "high",
+      "category": "Frontend",
+      "dueDate": "2026-11-18",
+      "attachmentUrl": "/uploads/sample-wireframe-architecture.png",
+      "createdAt": "2026-11-14T16:43:28.443Z",
+      "updatedAt": "2026-11-17T16:43:28.443Z"
+    },
+    {
+      "id": "tsk_seed_03",
+      "userId": "usr_demo_01",
+      "title": "Build Multer image upload endpoint with MIME type and size validation",
+      "description": "Restrict uploads to JPEG, PNG, WebP, and GIF under 5 MB and persist metadata alongside disk filenames.",
+      "status": "in_progress",
+      "priority": "high",
+      "category": "Media",
+      "dueDate": "2026-11-19",
+      "attachmentUrl": "/uploads/sample-sprint-roadmap.png",
+      "createdAt": "2026-11-15T16:43:28.443Z",
+      "updatedAt": "2026-11-18T16:43:28.443Z"
+    },
+    {
+      "id": "tsk_seed_04",
+      "userId": "usr_demo_01",
+      "title": "Implement client-side form validation on registration and task forms",
+      "description": "Display inline field validation messages for email syntax, password complexity, and required task titles.",
+      "status": "in_progress",
+      "priority": "medium",
+      "category": "Frontend",
+      "dueDate": "2026-11-20",
+      "attachmentUrl": null,
+      "createdAt": "2026-11-16T16:43:28.443Z",
+      "updatedAt": "2026-11-18T16:43:28.443Z"
+    },
+    {
+      "id": "tsk_seed_05",
+      "userId": "usr_demo_01",
+      "title": "Add multi-criteria task filtering and sorting controls",
+      "description": "Support combined status tabs, priority filters, category selection, and keyword search across tasks.",
+      "status": "pending",
+      "priority": "medium",
+      "category": "Database",
+      "dueDate": "2026-11-22",
+      "attachmentUrl": null,
+      "createdAt": "2026-11-17T16:43:28.443Z",
+      "updatedAt": "2026-11-17T16:43:28.443Z"
+    },
+    {
+      "id": "tsk_seed_06",
+      "userId": "usr_demo_01",
+      "title": "Verify production Vite build and Express static asset serving",
+      "description": "Run full TypeScript check and ensure uploaded images remain accessible from /uploads in production mode.",
+      "status": "pending",
+      "priority": "low",
+      "category": "Deployment",
+      "dueDate": "2026-11-24",
+      "attachmentUrl": null,
+      "createdAt": "2026-11-17T16:43:28.443Z",
+      "updatedAt": "2026-11-17T16:43:28.443Z"
+    }
+  ],
+  "uploads": [
+    {
+      "id": "upl_seed_01",
+      "userId": "usr_demo_01",
+      "title": "API Integration Blueprint",
+      "filename": "sample-wireframe-architecture.png",
+      "originalName": "api-integration-blueprint.png",
+      "mimeType": "image/png",
+      "size": 3131,
+      "url": "/uploads/sample-wireframe-architecture.png",
+      "createdAt": "2026-11-15T16:43:28.443Z"
+    },
+    {
+      "id": "upl_seed_02",
+      "userId": "usr_demo_01",
+      "title": "Sprint Milestone Schedule",
+      "filename": "sample-sprint-roadmap.png",
+      "originalName": "sprint-milestone-schedule.png",
+      "mimeType": "image/png",
+      "size": 3132,
+      "url": "/uploads/sample-sprint-roadmap.png",
+      "createdAt": "2026-11-17T16:43:28.443Z"
+    }
+  ]
+}

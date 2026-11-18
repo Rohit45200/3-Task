@@ -1,0 +1,6 @@
+{
+  "name": "TaskFlow Workspace",
+  "description": "Full-stack task manager and media upload workspace built with React, Express, JWT authentication, and Multer file uploads.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
